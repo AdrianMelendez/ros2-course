@@ -85,6 +85,9 @@ RUN apt-get update && apt-get install -y \
     python3-opencv \
     ros-humble-perception-pcl \
     ros-humble-pcl-ros \
+    ros-humble-joint-state-publisher \
+    ros-humble-joint-state-publisher-gui \
+    ros-humble-xacro \
     && rm -rf /var/lib/apt/lists/*
 
 ENV GAZEBO_PLUGIN_PATH=$GAZEBO_PLUGIN_PATH:/opt/ros/humble/lib
