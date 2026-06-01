@@ -1,0 +1,4 @@
+[console_scripts]
+heartbeat_publisher = robot_bringup.heartbeat_publisher:main
+status_logger = robot_bringup.status_logger:main
+
