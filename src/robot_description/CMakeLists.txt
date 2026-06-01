@@ -8,7 +8,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 
-install(DIRECTORY urdf launch rviz
+install(DIRECTORY urdf launch rviz worlds
   DESTINATION share/${PROJECT_NAME}
 )
 
